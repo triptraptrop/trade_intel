@@ -18,13 +18,12 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <link href="fonts/flaticon.css" rel="stylesheet">
-<link href="css/ionicons.min.css" rel="stylesheet">
 
 <!-- JavaScripts -->
 <script src="js/modernizr.js"></script>
 
 <!-- Online Fonts -->
-<link href="../../../../external.html?link=https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Montserrat:300,400,500,600,700,800" rel="stylesheet">
+<link href="../../../../external.html?link=https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
 <link href="../../../../use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,12 +36,12 @@
 </head>
 <body>
 
-<!-- LOADER -->
+<!-- LOADER 
 <div id="loader">
   <div class="position-center-center">
     <div class="ldr"></div>
   </div>
-</div>
+</div>-->
 
 <!-- Wrap -->
 <div id="wrap"> 
@@ -53,8 +52,8 @@
       
       <!-- Logo -->
       <div class="logo"> <a href="index.php"><img class="img-responsive" src="images/logo.jpeg" alt="" ></a> </div>
-      <nav class="navbar ownmenu navbar-expand-lg">
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <nav class="navbar ownmenu navbar-expand-lg ">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span><i class="fas fa-bars"></i></span> </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav">
             <li class="scroll active"><a href="#hme">Home</a></li>
@@ -71,15 +70,62 @@
     <div class="clearfix"></div>
   </header>
   
-  <!-- HOME MAIN  -->
+  <!-- HOME MAIN -->
   <section class="simple-head" data-stellar-background-ratio="0.5" id="hme"> 
     <!-- Particles -->
     <div id="particles-js"></div>
-    <div class="position-center-center">
-      <div class="container text-center">
-        <h1>Build a new kind of Decentralized </h1>
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-        <a href="#." class="btn">Join Us</a> <a href="#." class="btn btn-inverse">View White Paper</a> </div>
+    <div class="position-center-center cont-left">
+      <div class="container">
+        <div class="row"> 
+          
+          <!-- Left Section -->
+          <div class="col-md-7">
+            <h1>Build a new kind of Decentralized Application</h1>
+            <a href="#." class="btn">Join Us</a> <a href="#." class="btn btn-inverse">View White Paper</a> </div>
+          
+          <!-- Text Section -->
+          <div class="col-md-5">
+            <div class="distri">
+              <h6>Current Distribution Section End  101/350</h6>
+              <!-- Progress -->
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><span>9,000,000 <small>50%</small></span> </div>
+              </div>
+              
+              <!-- CountdownEnd -->
+              <div class="countdown"> 
+                <!-- Countdown-->
+                <ul class="row">
+                  <!-- Days -->
+                  <li class="col-md-3">
+                    <article> <span class="days">00</span>
+                      <p class="days_ref">Days</p>
+                    </article>
+                  </li>
+                  <!-- Hours -->
+                  <li class="col-md-3">
+                    <article> <span class="hours">00</span>
+                      <p class="hours_ref">Hours</p>
+                    </article>
+                  </li>
+                  <!-- Mintes -->
+                  <li class="col-md-3">
+                    <article><span class="minutes">00</span>
+                      <p class="minutes_ref">Minutes</p>
+                    </article>
+                  </li>
+                  <!-- Seconds -->
+                  <li class="col-md-3">
+                    <article><span class="seconds">00</span>
+                      <p class="seconds_ref">Seconds</p>
+                    </article>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   
@@ -87,7 +133,7 @@
   <div id="content"> 
     
     <!-- Why Choose Us -->
-    <section class="why-choose padding-top-150 padding-bottom-150" id="about">
+    <section class="why-choose padding-top-100 padding-bottom-100" id="about">
       <div class="container"> 
         
         <!-- Why Choose Us  ROW-->
@@ -101,7 +147,7 @@
             </div>
             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
             <p>Cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-            <div class="ultra-ser"> <span><span class="name"> Webicode &nbsp; - &nbsp;</span> <span>Ceo/Founder Chain</span></span> </div>
+            <div class="ultra-ser"> <span><span class="name"> Trading Intelligence &nbsp; - &nbsp;</span> <span>Ceo/Founder Chain</span></span> </div>
             <a class="vid-btn margin-top-30 popup-youtube" href="../../../../external.html?link=https://www.youtube.com/watch?v=7e90gBu4pas"><i class="fas fa-play-circle"></i> Watch Video <br>
             <span>How it work</span></a> </div>
           
@@ -111,6 +157,7 @@
         
         <!-- Services ROW -->
         <div class="row"> 
+        
           
           <!-- Services -->
           <div class="col-md-4">
@@ -170,13 +217,13 @@
     </section>
     
     <!-- Token Distribution -->
-    <section class="distri drk padding-top-150 padding-bottom-150 " id="token">
+    <section class="distri padding-top-100 padding-bottom-100 light-bg" id="token">
       <div class="container">
         <div class="row"> 
           
           <!-- Token  -->
           <div class="col-lg-7">
-            <h3>Token Distribution</h3>
+                  <h3>Token Distribution</h3>
             <p>ICO Crypto token will be released on the basis of Ethereum and Bitocin platform. It’s compatibility of the token with third-party services wallets, exchanges etc, and provides easy-to-use integration.</p>
             
             <!-- Progress -->
@@ -271,32 +318,8 @@
       </div>
     </section>
     
-    <!-- Development -->
-    <section class="dev-activ text-center padding-top-150 padding-bottom-150" id="activity">
-      <div class="container">
-        <div class="sm-intro">
-          <h2>Development Activity</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius. </p>
-        </div>
-        <ul class="row margin-top-50 margin-bottom-50">
-          <li class="col"> <i class="flaticon-rotate"></i> <span><span class="counter">4</span> hrs Ago</span>
-            <p>Last Update</p>
-          </li>
-          <li class="col"><i class="flaticon-building"></i> <span><span class="counter">10</span> Days Ago</span>
-            <p>Last Block Found</p>
-          </li>
-          <li class="col"><i class="flaticon-money-1"></i> <span><span class="counter">45057</span>+</span>
-            <p>Contributions</p>
-          </li>
-          <li class="col"><i class="flaticon-team"></i> <span  class="counter">80</span>
-            <p>Team Members</p>
-          </li>
-        </ul>
-        <a href="#." class="btn">Start on GitHub</a> <a href="#." class="btn btn-inverse">White Paper</a> </div>
-    </section>
-    
     <!-- ABOUT -->
-    <section class="about light-bg"> 
+    <section class="about"> 
       <!-- Right Background -->
       <div class="main-page-section half_left_layout">
         <div class="main-half-layout half_right_layout"> </div>
@@ -319,8 +342,32 @@
       </div>
     </section>
     
+    <!-- Development -->
+    <section class="dev-activ text-center padding-top-100 padding-bottom-100" id="activity">
+      <div class="container">
+        <div class="sm-intro">
+          <h2>Development Activity</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius. </p>
+        </div>
+        <ul class="row margin-top-50 margin-bottom-50">
+          <li class="col"> <i class="flaticon-rotate"></i> <span><span class="counter">4</span> hrs Ago</span>
+            <p>Last Update</p>
+          </li>
+          <li class="col"><i class="flaticon-building"></i> <span><span class="counter">10</span> Days Ago</span>
+            <p>Last Block Found</p>
+          </li>
+          <li class="col"><i class="flaticon-money-1"></i> <span><span class="counter">45057</span>+</span>
+            <p>Contributions</p>
+          </li>
+          <li class="col"><i class="flaticon-team"></i> <span  class="counter">80</span>
+            <p>Team Members</p>
+          </li>
+        </ul>
+        <a href="#." class="btn">Start on GitHub</a> <a href="#." class="btn btn-inverse">White Paper</a> </div>
+    </section>
+    
     <!-- Road Map -->
-    <section class="road-map padding-top-150 padding-bottom-50" id="roadmap">
+    <section class="road-map padding-top-100 padding-bottom-0" id="roadmap">
       <div class="container-fluid">
         <h2>Our Main Road Map</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius. </p>
@@ -395,7 +442,7 @@
     </section>
     
     <!-- Team Members -->
-    <section class="team style-2 padding-top-150 padding-bottom-150" id="team">
+    <section class="team style-2 padding-top-100 padding-bottom-100" id="team">
       <div class="container">
         <div class="heading text-center">
           <h2>Our Senior Team Leads </h2>
@@ -418,113 +465,8 @@
       </div>
     </section>
     
-    <!-- Team Members -->
-    <section class="light-bg padding-top-150 padding-bottom-150" id="team">
-      <div class="container">
-        <div class="heading text-center">
-          <h2>Frequently asked questions</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius. </p>
-        </div>
-        <!-- FAQS -->
-        <div class="row">
-          <div class="col-md-6"> 
-            
-            <!-- According Style 1 -->
-            <div class="panel-group accordion" id="accordion"> 
-              
-              <!-- According 1 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed"> What is ICO ?</a> </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
-                  <div class="panel-body"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh dolor, efficitur eget pharetra ac, cursus sed sapien. Cras posuere ligula ut blandit varius. </div>
-                </div>
-              </div>
-              
-              <!-- According 2 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed"> Why The Best ICO BlockChain</a> </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
-                  <div class="panel-body"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some </div>
-                </div>
-              </div>
-              
-              <!-- According 3 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed"> What is ICO Blockchain</a> </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse">
-                  <div class="panel-body"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some </div>
-                </div>
-              </div>
-              
-              <!-- According 4 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour" class="collapsed"> Best Crypto in this world</a> </h4>
-                </div>
-                <div id="collapsefour" class="panel-collapse collapse">
-                  <div class="panel-body"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6"> 
-            
-            <!-- According Style 1 -->
-            <div class="panel-group accordion" id="accordion"> 
-              
-              <!-- According 1 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne-1" class="collapsed"> Our Mission</a> </h4>
-                </div>
-                <div id="collapseOne-1" class="panel-collapse collapse">
-                  <div class="panel-body"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some </div>
-                </div>
-              </div>
-              
-              <!-- According 2 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo-1" class="collapsed"> Our Services</a> </h4>
-                </div>
-                <div id="collapseTwo-1" class="panel-collapse collapse">
-                  <div class="panel-body"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some </div>
-                </div>
-              </div>
-              
-              <!-- According 3 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree-1" class="collapsed"> Block Chain Into</a> </h4>
-                </div>
-                <div id="collapseThree-1" class="panel-collapse collapse">
-                  <div class="panel-body"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some </div>
-                </div>
-              </div>
-              
-              <!-- According 4 -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapsefour-1" class="collapsed"> Crypto Currency FAQS</a> </h4>
-                </div>
-                <div id="collapsefour-1" class="panel-collapse collapse">
-                  <div class="panel-body"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
     <!-- Join our community -->
-    <section class="community-sec padding-top-150 padding-bottom-150">
+    <section class="community-sec padding-top-100 padding-bottom-80">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -578,28 +520,25 @@
     <div class="rights">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <p>© 2018 Trading Intelligence. All Rights Reserved. Webicode.com</p>
+          <div class="col">
+            <p>© 2018 Trading Intelligence. All Rights Reserved. trading-intelligence.herokuapp.com</p>
           </div>
-          <div class="col-md-6 text-right"> <a href="#.">Faqs </a> <a href="#.">Terms & Conditions </a> <a href="#.">Contact Us</a> </div>
+          <div class="col text-right"> <a href="#.">Faqs </a> <a href="#.">Terms & Conditions </a> <a href="#.">Contact Us</a> </div>
         </div>
       </div>
     </div>
   </footer>
 </div>
 
-<!-- GO TO TOP --> 
-	<a href="#" class="cd-top"><i class="ion-chevron-up"></i></a> 
-<!-- GO TO TOP End --> 
-
-<!-- Script --> 
+<!-- Script -->
 <script src="js/jquery-1.11.3.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/particles.min.js"></script> 
 <script src="js/jquery.counterup.min.js"></script> 
 <script src="js/jquery.sticky.js"></script> 
 <script src="js/jquery.magnific-popup.min.js"></script> 
-<script src="js/main.js"></script>
+<script src="js/main.js"></script> 
 </body>
+
 
 </html>
