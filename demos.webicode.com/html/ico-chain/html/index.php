@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from demos.webicode.com/html/ico-chain/html/index.html by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 13 Jan 2021 11:30:01 GMT -->
+
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="M_Adnan">
-<title>ICO - Crypto BlockChain Parallax HTML5 Template</title>
+<title>Trading Intelligence</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +52,7 @@
     <div class="container"> 
       
       <!-- Logo -->
-      <div class="logo"> <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="" ></a> </div>
+      <div class="logo"> <a href="index.php"><img class="img-responsive" src="images/logo.jpeg" alt="" ></a> </div>
       <nav class="navbar ownmenu navbar-expand-lg">
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -579,7 +579,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <p>© 2018 ICO Crypto BlockChain. All Rights Reserved. Webicode.com</p>
+            <p>© 2018 Trading Intelligence. All Rights Reserved. Webicode.com</p>
           </div>
           <div class="col-md-6 text-right"> <a href="#.">Faqs </a> <a href="#.">Terms & Conditions </a> <a href="#.">Contact Us</a> </div>
         </div>
@@ -602,5 +602,4 @@
 <script src="js/main.js"></script>
 </body>
 
-<!-- Mirrored from demos.webicode.com/html/ico-chain/html/index.html by HTTrack Website Copier/3.x [XR&CO'2017], Wed, 13 Jan 2021 11:30:02 GMT -->
 </html>
